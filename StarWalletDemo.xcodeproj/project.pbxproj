@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E0C6142214830F700AFC402 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0C6141214830F700AFC402 /* AppDelegate.swift */; };
+		3E0C6144214830F700AFC402 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0C6143214830F700AFC402 /* ViewController.swift */; };
+		3E0C6147214830F800AFC402 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E0C6145214830F700AFC402 /* Main.storyboard */; };
+		3E0C614A214830F800AFC402 /* StarWalletDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3E0C6148214830F800AFC402 /* StarWalletDemo.xcdatamodeld */; };
+		3E0C614C214830F800AFC402 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E0C614B214830F800AFC402 /* Assets.xcassets */; };
+		3E0C614F214830F800AFC402 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E0C614D214830F800AFC402 /* LaunchScreen.storyboard */; };
+		3E0C615A214830F800AFC402 /* StarWalletDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0C6159214830F800AFC402 /* StarWalletDemoTests.swift */; };
+		3E0C6165214830F800AFC402 /* StarWalletDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0C6164214830F800AFC402 /* StarWalletDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E0C6156214830F800AFC402 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E0C6136214830F700AFC402 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E0C613D214830F700AFC402;
+			remoteInfo = StarWalletDemo;
+		};
+		3E0C6161214830F800AFC402 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E0C6136214830F700AFC402 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E0C613D214830F700AFC402;
+			remoteInfo = StarWalletDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E0C613E214830F700AFC402 /* StarWalletDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarWalletDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E0C6141214830F700AFC402 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3E0C6143214830F700AFC402 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3E0C6146214830F800AFC402 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E0C6149214830F800AFC402 /* StarWalletDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StarWalletDemo.xcdatamodel; sourceTree = "<group>"; };
+		3E0C614B214830F800AFC402 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E0C614E214830F800AFC402 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3E0C6150214830F800AFC402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E0C6155214830F800AFC402 /* StarWalletDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarWalletDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E0C6159214830F800AFC402 /* StarWalletDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWalletDemoTests.swift; sourceTree = "<group>"; };
+		3E0C615B214830F800AFC402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E0C6160214830F800AFC402 /* StarWalletDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarWalletDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E0C6164214830F800AFC402 /* StarWalletDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWalletDemoUITests.swift; sourceTree = "<group>"; };
+		3E0C6166214830F800AFC402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E0C613B214830F700AFC402 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E0C6152214830F800AFC402 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E0C615D214830F800AFC402 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E0C6135214830F700AFC402 = {
+			isa = PBXGroup;
+			children = (
+				3E0C6140214830F700AFC402 /* StarWalletDemo */,
+				3E0C6158214830F800AFC402 /* StarWalletDemoTests */,
+				3E0C6163214830F800AFC402 /* StarWalletDemoUITests */,
+				3E0C613F214830F700AFC402 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E0C613F214830F700AFC402 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E0C613E214830F700AFC402 /* StarWalletDemo.app */,
+				3E0C6155214830F800AFC402 /* StarWalletDemoTests.xctest */,
+				3E0C6160214830F800AFC402 /* StarWalletDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E0C6140214830F700AFC402 /* StarWalletDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3E0C6141214830F700AFC402 /* AppDelegate.swift */,
+				3E0C6143214830F700AFC402 /* ViewController.swift */,
+				3E0C6145214830F700AFC402 /* Main.storyboard */,
+				3E0C614B214830F800AFC402 /* Assets.xcassets */,
+				3E0C614D214830F800AFC402 /* LaunchScreen.storyboard */,
+				3E0C6150214830F800AFC402 /* Info.plist */,
+				3E0C6148214830F800AFC402 /* StarWalletDemo.xcdatamodeld */,
+			);
+			path = StarWalletDemo;
+			sourceTree = "<group>";
+		};
+		3E0C6158214830F800AFC402 /* StarWalletDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E0C6159214830F800AFC402 /* StarWalletDemoTests.swift */,
+				3E0C615B214830F800AFC402 /* Info.plist */,
+			);
+			path = StarWalletDemoTests;
+			sourceTree = "<group>";
+		};
+		3E0C6163214830F800AFC402 /* StarWalletDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3E0C6164214830F800AFC402 /* StarWalletDemoUITests.swift */,
+				3E0C6166214830F800AFC402 /* Info.plist */,
+			);
+			path = StarWalletDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E0C613D214830F700AFC402 /* StarWalletDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E0C6169214830F800AFC402 /* Build configuration list for PBXNativeTarget "StarWalletDemo" */;
+			buildPhases = (
+				3E0C613A214830F700AFC402 /* Sources */,
+				3E0C613B214830F700AFC402 /* Frameworks */,
+				3E0C613C214830F700AFC402 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarWalletDemo;
+			productName = StarWalletDemo;
+			productReference = 3E0C613E214830F700AFC402 /* StarWalletDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E0C6154214830F800AFC402 /* StarWalletDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E0C616C214830F800AFC402 /* Build configuration list for PBXNativeTarget "StarWalletDemoTests" */;
+			buildPhases = (
+				3E0C6151214830F800AFC402 /* Sources */,
+				3E0C6152214830F800AFC402 /* Frameworks */,
+				3E0C6153214830F800AFC402 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E0C6157214830F800AFC402 /* PBXTargetDependency */,
+			);
+			name = StarWalletDemoTests;
+			productName = StarWalletDemoTests;
+			productReference = 3E0C6155214830F800AFC402 /* StarWalletDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3E0C615F214830F800AFC402 /* StarWalletDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E0C616F214830F800AFC402 /* Build configuration list for PBXNativeTarget "StarWalletDemoUITests" */;
+			buildPhases = (
+				3E0C615C214830F800AFC402 /* Sources */,
+				3E0C615D214830F800AFC402 /* Frameworks */,
+				3E0C615E214830F800AFC402 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E0C6162214830F800AFC402 /* PBXTargetDependency */,
+			);
+			name = StarWalletDemoUITests;
+			productName = StarWalletDemoUITests;
+			productReference = 3E0C6160214830F800AFC402 /* StarWalletDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E0C6136214830F700AFC402 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = mino;
+				TargetAttributes = {
+					3E0C613D214830F700AFC402 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = R7ZGAK5G6L;
+						ProvisioningStyle = Automatic;
+					};
+					3E0C6154214830F800AFC402 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = R7ZGAK5G6L;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3E0C613D214830F700AFC402;
+					};
+					3E0C615F214830F800AFC402 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = R7ZGAK5G6L;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3E0C613D214830F700AFC402;
+					};
+				};
+			};
+			buildConfigurationList = 3E0C6139214830F700AFC402 /* Build configuration list for PBXProject "StarWalletDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E0C6135214830F700AFC402;
+			productRefGroup = 3E0C613F214830F700AFC402 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E0C613D214830F700AFC402 /* StarWalletDemo */,
+				3E0C6154214830F800AFC402 /* StarWalletDemoTests */,
+				3E0C615F214830F800AFC402 /* StarWalletDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E0C613C214830F700AFC402 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E0C614F214830F800AFC402 /* LaunchScreen.storyboard in Resources */,
+				3E0C614C214830F800AFC402 /* Assets.xcassets in Resources */,
+				3E0C6147214830F800AFC402 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E0C6153214830F800AFC402 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E0C615E214830F800AFC402 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E0C613A214830F700AFC402 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E0C614A214830F800AFC402 /* StarWalletDemo.xcdatamodeld in Sources */,
+				3E0C6144214830F700AFC402 /* ViewController.swift in Sources */,
+				3E0C6142214830F700AFC402 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E0C6151214830F800AFC402 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E0C615A214830F800AFC402 /* StarWalletDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E0C615C214830F800AFC402 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E0C6165214830F800AFC402 /* StarWalletDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E0C6157214830F800AFC402 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E0C613D214830F700AFC402 /* StarWalletDemo */;
+			targetProxy = 3E0C6156214830F800AFC402 /* PBXContainerItemProxy */;
+		};
+		3E0C6162214830F800AFC402 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E0C613D214830F700AFC402 /* StarWalletDemo */;
+			targetProxy = 3E0C6161214830F800AFC402 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E0C6145214830F700AFC402 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E0C6146214830F800AFC402 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3E0C614D214830F800AFC402 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E0C614E214830F800AFC402 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E0C6167214830F800AFC402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E0C6168214830F800AFC402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E0C616A214830F800AFC402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R7ZGAK5G6L;
+				INFOPLIST_FILE = StarWalletDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mino.StarWalletDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3E0C616B214830F800AFC402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R7ZGAK5G6L;
+				INFOPLIST_FILE = StarWalletDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mino.StarWalletDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3E0C616D214830F800AFC402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = R7ZGAK5G6L;
+				INFOPLIST_FILE = StarWalletDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mino.StarWalletDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarWalletDemo.app/StarWalletDemo";
+			};
+			name = Debug;
+		};
+		3E0C616E214830F800AFC402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = R7ZGAK5G6L;
+				INFOPLIST_FILE = StarWalletDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mino.StarWalletDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarWalletDemo.app/StarWalletDemo";
+			};
+			name = Release;
+		};
+		3E0C6170214830F800AFC402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = R7ZGAK5G6L;
+				INFOPLIST_FILE = StarWalletDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mino.StarWalletDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = StarWalletDemo;
+			};
+			name = Debug;
+		};
+		3E0C6171214830F800AFC402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = R7ZGAK5G6L;
+				INFOPLIST_FILE = StarWalletDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mino.StarWalletDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = StarWalletDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E0C6139214830F700AFC402 /* Build configuration list for PBXProject "StarWalletDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E0C6167214830F800AFC402 /* Debug */,
+				3E0C6168214830F800AFC402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E0C6169214830F800AFC402 /* Build configuration list for PBXNativeTarget "StarWalletDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E0C616A214830F800AFC402 /* Debug */,
+				3E0C616B214830F800AFC402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3E0C616C214830F800AFC402 /* Build configuration list for PBXNativeTarget "StarWalletDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E0C616D214830F800AFC402 /* Debug */,
+				3E0C616E214830F800AFC402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3E0C616F214830F800AFC402 /* Build configuration list for PBXNativeTarget "StarWalletDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E0C6170214830F800AFC402 /* Debug */,
+				3E0C6171214830F800AFC402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3E0C6148214830F800AFC402 /* StarWalletDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3E0C6149214830F800AFC402 /* StarWalletDemo.xcdatamodel */,
+			);
+			currentVersion = 3E0C6149214830F800AFC402 /* StarWalletDemo.xcdatamodel */;
+			path = StarWalletDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3E0C6136214830F700AFC402 /* Project object */;
+}
