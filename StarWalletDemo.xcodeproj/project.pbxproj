@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3223AF7AA8391194C984866F /* Pods_StarWalletDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1FF9C8DDC8C6135D5D70346 /* Pods_StarWalletDemoUITests.framework */; };
 		3E0C6142214830F700AFC402 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0C6141214830F700AFC402 /* AppDelegate.swift */; };
-		3E0C6144214830F700AFC402 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0C6143214830F700AFC402 /* ViewController.swift */; };
 		3E0C6147214830F800AFC402 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E0C6145214830F700AFC402 /* Main.storyboard */; };
 		3E0C614A214830F800AFC402 /* StarWalletDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3E0C6148214830F800AFC402 /* StarWalletDemo.xcdatamodeld */; };
 		3E0C614C214830F800AFC402 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E0C614B214830F800AFC402 /* Assets.xcassets */; };
 		3E0C614F214830F800AFC402 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E0C614D214830F800AFC402 /* LaunchScreen.storyboard */; };
 		3E0C615A214830F800AFC402 /* StarWalletDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0C6159214830F800AFC402 /* StarWalletDemoTests.swift */; };
 		3E0C6165214830F800AFC402 /* StarWalletDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0C6164214830F800AFC402 /* StarWalletDemoUITests.swift */; };
+		3E0C617921484C0400AFC402 /* MyData.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E0C617821484C0400AFC402 /* MyData.txt */; };
+		3E0C617B214855BD00AFC402 /* item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0C617A214855BD00AFC402 /* item.swift */; };
+		3E0C617D2148F8C600AFC402 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0C617C2148F8C600AFC402 /* HomeViewController.swift */; };
+		3E0C617F2148F8E800AFC402 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0C617E2148F8E800AFC402 /* HomeCell.swift */; };
+		3E0C618121492B8400AFC402 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E0C618021492B8400AFC402 /* DetailViewController.swift */; };
+		834AE0D584D0F9D9AC048CD8 /* Pods_StarWalletDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB9660025F232458A82794C /* Pods_StarWalletDemoTests.framework */; };
+		CE1C9154B43A578B1F2E0285 /* Pods_StarWalletDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 623A55E1CCD6114DD7B0995B /* Pods_StarWalletDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06C2522722787C806C81BBF0 /* Pods-StarWalletDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarWalletDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StarWalletDemoTests/Pods-StarWalletDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		0A97E4D7A3DA7E4649A9E955 /* Pods-StarWalletDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarWalletDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StarWalletDemoUITests/Pods-StarWalletDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1E5FF2DEF9EC7F11EC1E5E9E /* Pods-StarWalletDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarWalletDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StarWalletDemoUITests/Pods-StarWalletDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3DB9660025F232458A82794C /* Pods_StarWalletDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarWalletDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E0C613E214830F700AFC402 /* StarWalletDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarWalletDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E0C6141214830F700AFC402 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3E0C6143214830F700AFC402 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3E0C6146214830F800AFC402 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3E0C6149214830F800AFC402 /* StarWalletDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StarWalletDemo.xcdatamodel; sourceTree = "<group>"; };
 		3E0C614B214830F800AFC402 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +59,17 @@
 		3E0C6160214830F800AFC402 /* StarWalletDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarWalletDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E0C6164214830F800AFC402 /* StarWalletDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWalletDemoUITests.swift; sourceTree = "<group>"; };
 		3E0C6166214830F800AFC402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E0C617821484C0400AFC402 /* MyData.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = MyData.txt; path = ../MyData.txt; sourceTree = "<group>"; };
+		3E0C617A214855BD00AFC402 /* item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = item.swift; sourceTree = "<group>"; };
+		3E0C617C2148F8C600AFC402 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3E0C617E2148F8E800AFC402 /* HomeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		3E0C618021492B8400AFC402 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = ../DetailViewController.swift; sourceTree = "<group>"; };
+		3E0C6182214983C900AFC402 /* StarWalletDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StarWalletDemo.entitlements; sourceTree = "<group>"; };
+		623A55E1CCD6114DD7B0995B /* Pods_StarWalletDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarWalletDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95AAAA2AD993BDB07C9E5D7C /* Pods-StarWalletDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarWalletDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-StarWalletDemo/Pods-StarWalletDemo.release.xcconfig"; sourceTree = "<group>"; };
+		97A738759A5809A45012F89F /* Pods-StarWalletDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarWalletDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StarWalletDemo/Pods-StarWalletDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A1FF9C8DDC8C6135D5D70346 /* Pods_StarWalletDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarWalletDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE3F52A63BA02F30C22EDD19 /* Pods-StarWalletDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarWalletDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StarWalletDemoTests/Pods-StarWalletDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE1C9154B43A578B1F2E0285 /* Pods_StarWalletDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				834AE0D584D0F9D9AC048CD8 /* Pods_StarWalletDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +93,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3223AF7AA8391194C984866F /* Pods_StarWalletDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B1425B9179BF0EE03C23D4F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97A738759A5809A45012F89F /* Pods-StarWalletDemo.debug.xcconfig */,
+				95AAAA2AD993BDB07C9E5D7C /* Pods-StarWalletDemo.release.xcconfig */,
+				CE3F52A63BA02F30C22EDD19 /* Pods-StarWalletDemoTests.debug.xcconfig */,
+				06C2522722787C806C81BBF0 /* Pods-StarWalletDemoTests.release.xcconfig */,
+				0A97E4D7A3DA7E4649A9E955 /* Pods-StarWalletDemoUITests.debug.xcconfig */,
+				1E5FF2DEF9EC7F11EC1E5E9E /* Pods-StarWalletDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		353AA2E00AB454D16D147098 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				623A55E1CCD6114DD7B0995B /* Pods_StarWalletDemo.framework */,
+				3DB9660025F232458A82794C /* Pods_StarWalletDemoTests.framework */,
+				A1FF9C8DDC8C6135D5D70346 /* Pods_StarWalletDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3E0C6135214830F700AFC402 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +130,8 @@
 				3E0C6158214830F800AFC402 /* StarWalletDemoTests */,
 				3E0C6163214830F800AFC402 /* StarWalletDemoUITests */,
 				3E0C613F214830F700AFC402 /* Products */,
+				2B1425B9179BF0EE03C23D4F /* Pods */,
+				353AA2E00AB454D16D147098 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +148,17 @@
 		3E0C6140214830F700AFC402 /* StarWalletDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3E0C6187214A725000AFC402 /* Models */,
+				3E0C6186214A722F00AFC402 /* SubViews */,
+				3E0C6185214A720B00AFC402 /* View Controllers */,
+				3E0C6182214983C900AFC402 /* StarWalletDemo.entitlements */,
 				3E0C6141214830F700AFC402 /* AppDelegate.swift */,
-				3E0C6143214830F700AFC402 /* ViewController.swift */,
 				3E0C6145214830F700AFC402 /* Main.storyboard */,
 				3E0C614B214830F800AFC402 /* Assets.xcassets */,
 				3E0C614D214830F800AFC402 /* LaunchScreen.storyboard */,
 				3E0C6150214830F800AFC402 /* Info.plist */,
 				3E0C6148214830F800AFC402 /* StarWalletDemo.xcdatamodeld */,
+				3E0C617821484C0400AFC402 /* MyData.txt */,
 			);
 			path = StarWalletDemo;
 			sourceTree = "<group>";
@@ -128,6 +181,31 @@
 			path = StarWalletDemoUITests;
 			sourceTree = "<group>";
 		};
+		3E0C6185214A720B00AFC402 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3E0C618021492B8400AFC402 /* DetailViewController.swift */,
+				3E0C617C2148F8C600AFC402 /* HomeViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		3E0C6186214A722F00AFC402 /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				3E0C617E2148F8E800AFC402 /* HomeCell.swift */,
+			);
+			name = SubViews;
+			sourceTree = "<group>";
+		};
+		3E0C6187214A725000AFC402 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3E0C617A214855BD00AFC402 /* item.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E0C6169214830F800AFC402 /* Build configuration list for PBXNativeTarget "StarWalletDemo" */;
 			buildPhases = (
+				9FD1D71A747A82DEFE28CE2E /* [CP] Check Pods Manifest.lock */,
 				3E0C613A214830F700AFC402 /* Sources */,
 				3E0C613B214830F700AFC402 /* Frameworks */,
 				3E0C613C214830F700AFC402 /* Resources */,
+				09655C476FE4E980252C1162 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +232,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E0C616C214830F800AFC402 /* Build configuration list for PBXNativeTarget "StarWalletDemoTests" */;
 			buildPhases = (
+				4EC45EAAAD0CCE46E8F11947 /* [CP] Check Pods Manifest.lock */,
 				3E0C6151214830F800AFC402 /* Sources */,
 				3E0C6152214830F800AFC402 /* Frameworks */,
 				3E0C6153214830F800AFC402 /* Resources */,
@@ -170,6 +251,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E0C616F214830F800AFC402 /* Build configuration list for PBXNativeTarget "StarWalletDemoUITests" */;
 			buildPhases = (
+				9D6961102111B679DB459D25 /* [CP] Check Pods Manifest.lock */,
 				3E0C615C214830F800AFC402 /* Sources */,
 				3E0C615D214830F800AFC402 /* Frameworks */,
 				3E0C615E214830F800AFC402 /* Resources */,
@@ -198,6 +280,11 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = R7ZGAK5G6L;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					3E0C6154214830F800AFC402 = {
 						CreatedOnToolsVersion = 8.0;
@@ -241,6 +328,7 @@
 				3E0C614F214830F800AFC402 /* LaunchScreen.storyboard in Resources */,
 				3E0C614C214830F800AFC402 /* Assets.xcassets in Resources */,
 				3E0C6147214830F800AFC402 /* Main.storyboard in Resources */,
+				3E0C617921484C0400AFC402 /* MyData.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,14 +348,92 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09655C476FE4E980252C1162 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-StarWalletDemo/Pods-StarWalletDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StarWalletDemo/Pods-StarWalletDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EC45EAAAD0CCE46E8F11947 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StarWalletDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D6961102111B679DB459D25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StarWalletDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FD1D71A747A82DEFE28CE2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StarWalletDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3E0C613A214830F700AFC402 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E0C617F2148F8E800AFC402 /* HomeCell.swift in Sources */,
 				3E0C614A214830F800AFC402 /* StarWalletDemo.xcdatamodeld in Sources */,
-				3E0C6144214830F700AFC402 /* ViewController.swift in Sources */,
 				3E0C6142214830F700AFC402 /* AppDelegate.swift in Sources */,
+				3E0C617B214855BD00AFC402 /* item.swift in Sources */,
+				3E0C617D2148F8C600AFC402 /* HomeViewController.swift in Sources */,
+				3E0C618121492B8400AFC402 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,8 +583,10 @@
 		};
 		3E0C616A214830F800AFC402 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97A738759A5809A45012F89F /* Pods-StarWalletDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = StarWalletDemo/StarWalletDemo.entitlements;
 				DEVELOPMENT_TEAM = R7ZGAK5G6L;
 				INFOPLIST_FILE = StarWalletDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -430,8 +598,10 @@
 		};
 		3E0C616B214830F800AFC402 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95AAAA2AD993BDB07C9E5D7C /* Pods-StarWalletDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = StarWalletDemo/StarWalletDemo.entitlements;
 				DEVELOPMENT_TEAM = R7ZGAK5G6L;
 				INFOPLIST_FILE = StarWalletDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -443,6 +613,7 @@
 		};
 		3E0C616D214830F800AFC402 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE3F52A63BA02F30C22EDD19 /* Pods-StarWalletDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -458,6 +629,7 @@
 		};
 		3E0C616E214830F800AFC402 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06C2522722787C806C81BBF0 /* Pods-StarWalletDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -473,6 +645,7 @@
 		};
 		3E0C6170214830F800AFC402 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A97E4D7A3DA7E4649A9E955 /* Pods-StarWalletDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = R7ZGAK5G6L;
@@ -487,6 +660,7 @@
 		};
 		3E0C6171214830F800AFC402 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E5FF2DEF9EC7F11EC1E5E9E /* Pods-StarWalletDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = R7ZGAK5G6L;
@@ -518,6 +692,7 @@
 				3E0C616B214830F800AFC402 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E0C616C214830F800AFC402 /* Build configuration list for PBXNativeTarget "StarWalletDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +701,7 @@
 				3E0C616E214830F800AFC402 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E0C616F214830F800AFC402 /* Build configuration list for PBXNativeTarget "StarWalletDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +710,7 @@
 				3E0C6171214830F800AFC402 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
